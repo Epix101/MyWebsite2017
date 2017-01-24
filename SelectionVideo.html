@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+background-color: black;
+}
+</style>
+<body>
+<script language="javascript" type="text/javascript">
+var myArray = ['https://www.youtube.com/embed/gHBZquXRnQg', 'https://www.youtube.com/embed/WLT-_56oEiM', 'https://www.youtube.com/embed/JB4S23YERtU', 'https://www.youtube.com/embed/rjbOReWvepk', 'https://www.youtube.com/embed/rF9bacBwaXM', 'https://www.youtube.com/embed/cv-flkJ4_ig', 'https://www.youtube.com/embed/8Q2P4LjuVA8', 'https://www.youtube.com/embed/P1yGmJsipqg'];
+var myTable="<table><tr>";
+var skipper = 0;
+var max = 4;
+for (var i=0; i<myArray.length; i++) {
+if (skipper < max){
+	skipper++;
+  }else if (skipper>=max){
+	skipper=0;//was -- for 2 rows
+	myTable+="</tr><tr>";
+}myTable+="<td style='width: 100px;'><iframe width='560' height='315' src="+ myArray[i] +" frameborder='0' allowfullscreen></iframe></td>"} //<iframe src=" + myArray[i] + " frameborder='0' allowfullscreen></iframe>
+   myTable+="</tr></table>";
+
+ document.write( myTable);
+</script>
+</body>
+</html>

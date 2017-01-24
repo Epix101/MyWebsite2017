@@ -1,0 +1,103 @@
+body{
+background-color: black;
+background-repeat: no-repeat;
+background-image: url("http://wallpapercave.com/wp/c3hhLoV.png");
+background-size: 1600px 800px;
+}
+marquee{
+background-color: white;
+}
+#a {
+border: 1px solid black;
+color:white;
+background:radial-gradient(green, orange, red); ;
+border-radius:5px;
+text-decoration: none;
+padding: 23px;
+position: absolute;
+top: 75px;
+left: 150px;
+}
+#a:hover {
+background:radial-gradient(red, orange, green); ;
+}
+#b {
+border: 1px solid black;
+color:white;
+background:radial-gradient(green, orange, red); ;
+border-radius:5px;
+text-decoration: none;
+padding: 23px;
+position: absolute;
+top: 75px;
+left: 275px;
+}
+#b:hover {
+background:radial-gradient(red, orange, green); ;
+}
+#c {
+border: 1px solid black;
+color:white;
+background:radial-gradient(green, orange, red); ;
+border-radius:5px;
+text-decoration: none;
+padding: 23px;
+position: absolute;
+top: 75px;
+left: 364px;
+}
+#c:hover {
+background:radial-gradient(red, orange, green); ;
+}
+#d {
+border: 1px solid black;
+color:white;
+background:radial-gradient(green, orange, red); ;
+border-radius:5px;
+text-decoration: none;
+padding: 23px;
+position: absolute;
+top: 75px;
+left: 465px;
+}
+#d:hover {
+background:radial-gradient(red, orange, green); ;
+}
+#e {
+border: 1px solid black;
+color:white;
+background:radial-gradient(green, orange, red); ;
+border-radius:5px;
+text-decoration: none;
+padding: 23px;
+position: absolute;
+top: 75px;
+left: 565px;
+}
+#e:hover {
+background:radial-gradient(red, orange, green); ;
+}
+#DENNIS {
+background-color: white;
+position:absolute;
+left:884px;
+top: 100px;
+}
+#p {
+position: relative;
+top: -18px;
+}
+#b123 {
+position: relative;
+top: -18px;
+}
+#HUSHTAG {
+position: absolute;
+top: 545px;
+left: 925px;
+}
+#yoloyoloyoloyoloyolo {
+position: relative;
+top: -75px;
+left: 50px;
+}
